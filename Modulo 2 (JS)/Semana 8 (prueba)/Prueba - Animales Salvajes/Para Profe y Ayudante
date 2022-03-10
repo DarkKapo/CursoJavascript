@@ -1,0 +1,28 @@
+Hola profesora/ayudante
+
+Este es el proyecto terminado, de todo lo pedido para esta prueba solo 1 cosa no pude implentar de manera correcta, el modal.
+
+El modal solo funciona mostrando el último animal ingresado, por temas de tiempo no alcancé a pensar de que forma mostrar
+1 modal para cada animal, agradecería que me dieran el feedback sobre quñe debo hacer para que el modal funcione.
+
+Existe una forma de hacer que se muestra una lista de modals, para esto, en la línea 104 del index.js se debe cambiar lo siguiente:
+
+templateModal.innerHTML = `código modal`
+
+se cambia por
+
+templateModal.innerHTML += `código modal`
+
+Lo anterior genera una lista con todos los modals de los animales registrados, pero encontré que la visual no es muy buena.
+
+El código se puede cambiar para que la información que se muestra en el modal (la edad y comentario) también se muestre
+en la tabla de la izquierda. Para eso se modifica la carta que está en index.js línea 131, se debe agregar lo siguiente
+
+<hr class="w-50 mx-auto">
+<p class="card-text">Edad: ${edad}</p>
+<p class="card-text">Comentario: <span class="text-danger">${comentarios}</span></p>
+
+Con lo anterior se logra mostrar cada animal con su información, pero opté por no agregarlo para que la presentación sea
+parecida a la imagen que aparece en la prueba
+
+Muchas gracias por todo, he aprendido un montón y espero continuar en el próximo módulo :D

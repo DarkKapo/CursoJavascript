@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1;
+}
+
+/*Asigna color del nav*/
+.navColor{
+    background-color: #28A745;
+}
+
+/*Asigna color del logo del nac*/
+.logoNav{
+    height: 25px;
+}
+
+/*Ajusta las dimensiones del container de la sección ofertas*/
+.ubicacion {
+    padding-top: 70px;
+    padding-bottom: 47px;
+}
+
+/*Ajusta el padding de la imagen respecto al nav*/
+.UIcard{
+    padding-top: 18px;
+}
+
+/*Ajusta el texto que está abajo de cada imagen con los parámetros que muestra la maqueta*/
+.titleCardText{
+    font-weight: 300;
+    font-size: 20pt;
+    text-align: left;
+    color: #212529;
+}
+
+/*Ajusta el texto que está abajo del título de la imagen con los parámetros que muestra la maqueta*/
+.UIcardText{
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 16pt;
+    text-align: left;
+    color: #707070;
+}
+
+/*Ajusta el texto que indica la ubicación de la oferta con los parámetros que muestra la maqueta*/
+.UIdirText{
+    font-weight: 300;
+    font-size: 13pt;
+    text-align: left;
+    color: #707070;
+}
+
+/*Ajusta el texto del precio más caro*/
+.UIpriceExpensive{
+    font-weight: 300;
+    font-size: 14pt;
+    color: #707070;
+}
+
+/*Ajusta el texto del precio más barato*/
+.UIpriceCheap{
+    font-weight: 500;
+    font-size: 18pt;
+    color: #28A745;
+}
+
+/*Ajusta los parámetros del container del formulario*/
+.UIcontainerForm{
+    height: 241px;
+    background-color: #28A745;
+}
+
+/*Ajusta texto del formulario*/
+.textForm{
+    font-weight: 500;
+    font-size: 17pt;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+.UIcontainerFooter{
+    height: 118px;
+}
+
+.ImgFooter{
+    height: 26px;
+    margin-top: 24px;
+}
+
+.textFooter{
+    font-weight: 300;
+    font-size: 12pt;
+    color: #707070;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+/*Ajusta el texto que están dentro del recuadro del formulario*/
+.textPlaceholder{
+    font-weight: 300;
+    font-size: 12pt;
+    color: #707070;
+    text-align: left;
+}

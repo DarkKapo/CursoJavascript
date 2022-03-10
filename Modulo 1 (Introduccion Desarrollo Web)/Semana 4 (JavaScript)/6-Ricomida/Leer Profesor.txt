@@ -1,0 +1,9 @@
+Hola profesor
+
+La página web funciona y cumple con todo lo pedido (si se prueba desde el navegador), pero tuve 2 problemas con el inspector de elementos que no los pude solucionar.
+
+1) Cuando se hacen modificaciones aleatorias (cambiar el tamaño de la pantalla) en el inspector de elementos, algunas veces la página web deja de ser responsiva, la verdad nunca entendí por qué ocurre esto, pero se soluciona cerrando el inspector, volver a abrir el inspector y presionar la tecla F5 (algunas veces no es necesario salir del inspector, solo se debe presionar la tecla F5)
+
+2) Cuando se revisan las funcionalidades pedidas en la maqueta en el inspector de elementos, el evento  que cambia de color la palabra INGREDIENTES y PREPARACIÓN se "desactiva", no encontré la forma de hacer que funcione dentro del inspector de elemento, pero si usted sale del inspector el evento funciona con normalidad.
+
+Muchas gracias por leer profesor y agradezco todos sus feedback, me han ayudado mucho!

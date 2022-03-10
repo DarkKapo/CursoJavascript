@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+.titleSection{
+    top: 0px;
+    height: 73px;
+    background-color: #000000;
+    opacity: 1;
+}
+
+/*Propiedad del texto acorde a los requisitos*/
+h1, h2{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 500;
+}
+
+h3{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 300;
+}
+
+/*sección foto de iguana en grande*/
+.desc-section{
+    top: 73px;
+    height: 727px;
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+/*sección de la descripción iguana*/
+.desc-section1 {
+    top: 800px;
+    height: 348px;
+    text-align: left;
+    background-color: #000000;
+    padding: 3.125rem;
+    white-space: nowrap;
+}
+
+.centrado{
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*Foto de la iguana en la seción "descripción iguana"*/
+.iguana1{
+    width: 50%; /*la imagen usa en 50% del espacio*/
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*Text de la iguana en la seción "descripción iguana"*/
+.textoIguana{
+    display: inline-block;
+    width: 47.5%; /*Texto usa un 47,5% del espacio*/
+    vertical-align: middle;
+    margin-left: 2.5%; /*margen para completar el 100%*/
+    white-space: normal;
+}
+
+/*Sección de los 3 iconos*/
+.icons-section{
+    top: 1148px;
+    height: 348px;
+    background-color: #1e1a13;
+    opacity: 0.98;
+}
+
+section i{
+    color: #ffffff;
+    margin: 0 0.25em 0.3em 4em; /* margen para separar los iconos */
+}
+
+.iconsImg{
+    display: inline-block;
+    width: 32%; /*son 3 iconos, cada icono usa un 32% del espacio*/
+    padding-top: 30px;
+}
+
+#textIcon{
+    margin: 0 0.25em 0.3em 9.5em; /*separación de los texto de cada icono (3er ojo, pacifista, cambia color)*/
+}
+
+/*sección con las 3 fotos de la iguana*/
+.img-section{
+    top: 1496px;
+    height: 348px;
+    background-color: #000000;
+    opacity: 0.96;
+}
+
+/*Propiedades que se aplican a las 3 imagenes por igual*/
+.imgIguana2{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.25em 0.3em 4em; /*separación entre cada imagen*/
+    padding-top: 80px;
+}
+
+.footer-section{
+    top: 1844px;
+    height: 102px;
+    background-color: #1e1a13;
+    opacity: 0.94;
+}
+
+/*alinea el texto del footer*/
+#footerText{
+    padding-top: 40px;
+    text-align: center;
+}
+
+/*ajusta el texto "CARACTERÍSTICAS*/
+#paddingH2{
+    padding-top: 60px;
+}
+
+/*ajusta el título de la página "IGUANAS"*/
+#paddingH1{
+    padding-top: 15px;
+}
+
+.ajuste{
+    width: 1200px; /*ajuste para que la imagen no salga del "section"*/
+}

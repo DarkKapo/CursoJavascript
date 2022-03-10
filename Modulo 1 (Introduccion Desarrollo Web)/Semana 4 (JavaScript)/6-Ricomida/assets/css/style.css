@@ -1,0 +1,34 @@
+body
+{
+    font-family: 'Cabin', sans-serif;
+}
+
+.textRicomida
+{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+/*Configura el texto de la pizza, ingrediente/preparación y títulos*/
+.IUtextPizza, .IUtextIngPre, .tituloRecetas, .UItituloNewsletter
+{
+    font-weight: 700;
+}
+
+/*Con esto nos aseguramos que el carousel no aparezca en pantallas pequeñas*/
+@media (max-width: 576px)
+{
+  /*En pantallas chicas la línea no se ve bien, con este código se arregla lun poco la visual*/
+  .w-25 {
+    width: 50%!important;
+  }
+
+  .carousel {
+    display: none;
+  }
+}
+
+
+#changeColor:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,3 @@
+Factura(#numero_factura, fecha_factura, nombre_paciente,
+#numero_paciente, direccion, comuna, ciudad, codigo_sistema_salud,
+{numero_item, nombre_item,valor_item}, subtotal, impuesto, total)

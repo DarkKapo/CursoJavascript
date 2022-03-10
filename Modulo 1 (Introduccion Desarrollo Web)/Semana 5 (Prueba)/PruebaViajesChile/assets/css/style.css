@@ -1,0 +1,82 @@
+body
+{
+    font-family: 'Judson', serif;
+}
+/*Ajusta el tamaño del logo en el navbar*/
+.logoNav
+{
+    width: 40px;
+}
+
+/*Ajuste del texto que acompaña al logo del navbar*/
+.UItextLogoNavbar
+{
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    font-family: 'Judson';
+    font-weight: 700;
+}
+
+/*Por defecto el container tiene un padding, con esta clase eliminamos los padding*/
+.UIcontainerCarousel
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*cambiamos el color del navbar a transparente*/
+.navbar
+{
+    background-color: transparent !important;
+}
+
+/*Configuración del container sección Quienes Somos, Destacados y contacto*/
+.UIcontainerQuienesSomos, .UIcontainerDestacado, .UIcontainerContacto
+{
+    background-color: #000000;
+}
+
+/*Configuración texto Quienes somos, Destacados y contacto*/
+.titleQuienesSomos, .textQuienesSomos, .titleDestacados, .titleContacto, .titleFooter
+{
+    color:#FFFFFF;
+}
+
+.titleQuienesSomos, .titleDestacados, .titleContacto, .card-title, .titleFooter
+{
+    font-family: 'Judson';
+    font-weight: 700;
+}
+
+.textQuienesSomos, .card-text, .navText
+{
+    font-family: 'Judson';
+    font-weight: 400;
+}
+
+/*Color linea hr*/
+.colorLine
+{
+    background-color:#16a3b7;
+}
+
+/*Modifica los iconos del footer*/
+footer i
+{
+    margin: 0 0.4em 0em 0em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*Al pasar el mouse por encima, se activa el cursor*/
+#mouseOver:hover
+{
+    cursor: pointer;
+}
+
+.mouseOver1:hover
+{
+    cursor: default;
+    background-color: #158799c0;
+}

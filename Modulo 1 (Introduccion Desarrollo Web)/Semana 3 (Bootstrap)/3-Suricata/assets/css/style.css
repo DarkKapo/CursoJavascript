@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navColor{
+    background-color: #E83E8C;
+}
+
+.logoNav{
+    height: 53px; /*ajusta el logo al formato de la maqueta*/
+}
+
+.UIcontainer{
+    padding-top: 139px;
+    margin-bottom: 118px;
+}
+
+.UIcard{
+    padding-top: 40px; /*ajusta el "card" para que quede parecido a la maqueta*/
+}
+
+/*Configuración de la sección de los iconos*/
+.UIsectionicons{
+    background-color: #17A2B8;
+    height: 170px;
+}
+
+/*Configuración de los íconos y texto*/
+.UIrowicons{
+padding-top: 58px;
+padding-left: 120px;
+padding-right: 121px;
+padding-bottom: 57px;
+}
+
+/*Configuración del footer*/
+.UIfooter{
+    background-color: #E83E8C;
+    height: 184px;
+}
+
+/*Configuración de la imagen del footer*/
+.Imgfooter{
+    width: 53.32px;
+    height: 100.45px;
+    margin-top: 30px;
+}
+
+h1{
+    font-weight: 700;
+    color: #707070;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+h2{
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+/*Configuración text navbar*/
+.textNav{
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+/*Configuración texto abajo de la imagen (sección nuestros productos)*/
+.tituloImg{
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #373A3C;
+    opacity: 1;
+}
+
+/*Configuración texto de la descripción de los productos*/
+.textoNormal{
+    font-weight: 400;
+    letter-spacing: 0px;
+    color:#373A3C;
+    opacity: 1;
+}
