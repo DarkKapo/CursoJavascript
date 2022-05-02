@@ -1,0 +1,7 @@
+Por tema de tiempo no pude resolver el login.
+
+Me gustaría un feedback para poder resolver la sección de "iniciar sesión"
+
+Situación:
+A veces el login funciona correctamente (ver imágenes) y otras veces simplemente no funciona
+No se como explicar mi problema porque no se si el login está correctamente implementado (asumo que no lo está)

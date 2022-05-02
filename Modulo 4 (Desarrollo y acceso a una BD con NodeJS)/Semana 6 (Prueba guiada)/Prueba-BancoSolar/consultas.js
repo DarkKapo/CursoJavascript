@@ -3,15 +3,14 @@ const { Pool } = require('pg')
 
 //instanciar pool
 const pool = new Pool({
-    user: "rodrigo",
+    user: "admin",
     host: "localhost",
-    password: "1q2w3e4r",
+    password: "password",
     port: 5432,
     database: "bancosolar"
 })
 
 //Función para agregar un usuario
-//---->PREGUNTA, HAY QUE PONER TRYCATCH? <------
 const agregarUsuario = async (usuario) => {
     const values = Object.values(usuario)
     const consulta = {
