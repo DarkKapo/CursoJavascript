@@ -1,0 +1,6 @@
+Saludos profesor y ayudante
+
+La página cumple con los requisitos, pero el problema es que al momento de eliminar un producto del carro,
+se elimina el último ingresado
+
+estaría muy agradecido de recibir un feedback para dejar esa parte solucionada, de ante mano muchas gracias

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado</title>
+    <!--agregar bootstrap-->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <!--Agrega axios-->
+    <script src="/axios/axios.min.js"></script>
+</head>
+<body>
+    <!--Scripts para eventos-->
+    <script>
+        //Cambia la opacidad del carro del navbar
+        cambiarOpacidad = (style) =>
+        {
+            if(style.opacity == 1)
+            {
+                document.getElementById('img').style.opacity=0.3
+            }else
+            {
+                document.getElementById('img').style.opacity=1
+            }
+        }
+        //Agrega un producto al carro
+        agregarCarro = (id) =>
+        {
+            axios.post('/agregar', {
+                id
+            }).then((data) => {
+                alert(data.data)
+            })
+        }
+        //Elimina un producto del carro
+        eliminarDelCarro = (id) =>
+        {
+            axios.delete('/eliminar', {
+                id
+            }).then((data) => {
+                alert(data.data)
+            })
+        }
+    </script>
+    
+    {{> navbar }}
+
+    {{> dashboard }}
+    
+</div>
+    
+    <!--Agregar bootstrap-->
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

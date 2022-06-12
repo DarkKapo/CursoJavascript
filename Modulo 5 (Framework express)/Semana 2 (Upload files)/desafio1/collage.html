@@ -1,0 +1,109 @@
+<h1>Collage de imagenes</h1>
+
+<div class="grid-container" style="width: 600px">
+  <div class="uno"><span onclick="borrarImg('imagen-1.jpg')">1</span></div>
+  <div class="dos"><span onclick="borrarImg('imagen-2.jpg')">2</span></div>
+  <div class="tres"><span onclick="borrarImg('imagen-3.jpg')">3</span></div>
+  <div class="cuatro"><span onclick="borrarImg('imagen-4.jpg')">4</span></div>
+  <div class="cinco"><span onclick="borrarImg('imagen-5.jpg')">5</span></div>
+  <div class=""><span onclick="borrarImg('imagen-6.jpg')">6</span></div>
+  <div class=""><span onclick="borrarImg('imagen-7.jpg')">7</span></div>
+  <div class=""><span onclick="borrarImg('imagen-8.jpg')">8</span></div>
+</div>
+<br />
+<a href="/"><button>Subir otra imagen</button></a>
+<style>
+  body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .uno {
+    grid-area: uno;
+  }
+  .dos {
+    grid-area: dos;
+  }
+
+  .tres {
+    grid-area: tres;
+  }
+
+  .cuatro {
+    grid-area: cuatro;
+  }
+
+  .cinco {
+    grid-area: cinco;
+  }
+
+  .grid-container {
+    margin: auto;
+    background: white;
+    display: grid;
+    grid-template-areas:
+      "uno . tres"
+      "uno cinco cuatro"
+      ". . cuatro"
+      "dos dos cuatro";
+    grid-gap: 3px;
+    text-shadow: 1px 1px 1px black;
+    padding: 3px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .grid-container div {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container div:nth-child(1) {
+    background-image: url("imagen-1.jpg");
+  }
+  .grid-container div:nth-child(2) {
+    background-image: url("imagen-2.jpg");
+  }
+  .grid-container div:nth-child(3) {
+    background-image: url("imagen-3.jpg");
+  }
+  .grid-container div:nth-child(4) {
+    background-image: url("imagen-4.jpg");
+  }
+  .grid-container div:nth-child(5) {
+    background-image: url("imagen-5.jpg");
+  }
+  .grid-container div:nth-child(6) {
+    background-image: url("imagen-6.jpg");
+  }
+  .grid-container div:nth-child(7) {
+    background-image: url("imagen-7.jpg");
+  }
+  .grid-container div:nth-child(8) {
+    background-image: url("imagen-8.jpg");
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+
+<script>
+  //Función de onclick poara eliminar una foto mediante una consulta fetch
+  const borrarImg = async (nombreImg) => {
+    const res = await fetch('/imagen/' + nombreImg, {
+      method: "DELETE"
+    })
+    const data = await res.json()
+    location.reload()
+  }
+</script>

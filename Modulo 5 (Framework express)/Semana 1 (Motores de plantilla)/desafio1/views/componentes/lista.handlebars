@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <!--Each de handlebars para mostrar los productos agregados al carro-->
+        {{#each arrayCompra }}
+        <div class="col-2">
+            <form>
+                <button id="{{this}}" type="submit" onclick="eliminarDelCarro(id)"><img src="/{{this}}.png" width="60px" height="60px"/></button>
+            </form>
+        </div>
+        {{/each}}
+    </div>
+</div>

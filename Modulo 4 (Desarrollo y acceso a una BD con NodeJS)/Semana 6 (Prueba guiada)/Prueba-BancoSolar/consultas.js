@@ -3,9 +3,9 @@ const { Pool } = require('pg')
 
 //instanciar pool
 const pool = new Pool({
-    user: "admin",
+    user: "postgress",
     host: "localhost",
-    password: "password",
+    password: "postgress",
     port: 5432,
     database: "bancosolar"
 })

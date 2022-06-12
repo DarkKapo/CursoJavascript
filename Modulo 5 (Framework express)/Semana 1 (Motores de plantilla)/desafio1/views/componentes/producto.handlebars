@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <!--Each de handlebars para mostrar los productos que se pueden agregar al carro-->
+        {{#each productos }}
+        <div class="col-4">
+            <form>
+                <p>{{this}}</p>
+                <button id="{{this}}" type="submit" onclick="agregarCarro(id)"><img src="/{{this}}.png" style="opacity: 1;"/></button>
+            </form>
+        </div>
+        {{/each}}
+    </div>
+</div>
