@@ -3,9 +3,9 @@ const { Pool } = require('pg')
 const { password } = require('pg/lib/defaults')
 
 const pool = new Pool({
-    user: "rodrigo",
+    user: "postgress",
     host: "localhost",
-    password: "1q2w3e4r",
+    password: "postgress",
     database: "nasa",
     port: 5432,
 })
